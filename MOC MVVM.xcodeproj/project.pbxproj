@@ -59,10 +59,10 @@
 		328A6B4A2A74E8DE00CF280D /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		328A6B4C2A74E97300CF280D /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		328A6B4E2A751D9A00CF280D /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
-		328A6B502A75221700CF280D /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProductListViewController.swift; path = "MOC MVVM/Constants/ProductListViewController.swift"; sourceTree = SOURCE_ROOT; };
+		328A6B502A75221700CF280D /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProductListViewController.swift; path = "MOC MVVM/Screens/Product/View/ProductListViewController.swift"; sourceTree = SOURCE_ROOT; };
 		328A6B522A7522D900CF280D /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
-		328A6B562A75368500CF280D /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProductTableViewCell.swift; path = "MOC MVVM/Screens/Product/ViewModel/ProductTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
-		328A6B572A75368500CF280D /* ProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ProductTableViewCell.xib; path = "MOC MVVM/Screens/Product/ViewModel/ProductTableViewCell.xib"; sourceTree = SOURCE_ROOT; };
+		328A6B562A75368500CF280D /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProductTableViewCell.swift; path = "MOC MVVM/Screens/Product/View/ProductTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		328A6B572A75368500CF280D /* ProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ProductTableViewCell.xib; path = "MOC MVVM/Screens/Product/View/ProductTableViewCell.xib"; sourceTree = SOURCE_ROOT; };
 		328A6B5D2A754F2300CF280D /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -205,8 +205,8 @@
 		328A6B462A74E7FC00CF280D /* Product */ = {
 			isa = PBXGroup;
 			children = (
+				328A6B5F2A75634200CF280D /* View */,
 				328A6B492A74E82000CF280D /* Model */,
-				328A6B482A74E81500CF280D /* View */,
 				328A6B472A74E80F00CF280D /* ViewModel */,
 			);
 			path = Product;
@@ -220,23 +220,22 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		328A6B482A74E81500CF280D /* View */ = {
-			isa = PBXGroup;
-			children = (
-				328A6B502A75221700CF280D /* ProductListViewController.swift */,
-				328A6B562A75368500CF280D /* ProductTableViewCell.swift */,
-				328A6B572A75368500CF280D /* ProductTableViewCell.xib */,
-			);
-			name = View;
-			path = "New Group/View";
-			sourceTree = "<group>";
-		};
 		328A6B492A74E82000CF280D /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				328A6B4A2A74E8DE00CF280D /* Product.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		328A6B5F2A75634200CF280D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				328A6B502A75221700CF280D /* ProductListViewController.swift */,
+				328A6B562A75368500CF280D /* ProductTableViewCell.swift */,
+				328A6B572A75368500CF280D /* ProductTableViewCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
