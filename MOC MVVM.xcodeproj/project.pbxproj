@@ -24,6 +24,7 @@
 		328A6B592A75368500CF280D /* ProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 328A6B572A75368500CF280D /* ProductTableViewCell.xib */; };
 		328A6B5C2A754EFC00CF280D /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 328A6B5B2A754EFC00CF280D /* Kingfisher */; };
 		328A6B5E2A754F2300CF280D /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328A6B5D2A754F2300CF280D /* UIImageView+Extension.swift */; };
+		328A6B632A7563B700CF280D /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328A6B622A7563B700CF280D /* EndPointType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		328A6B562A75368500CF280D /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProductTableViewCell.swift; path = "MOC MVVM/Screens/Product/View/ProductTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
 		328A6B572A75368500CF280D /* ProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ProductTableViewCell.xib; path = "MOC MVVM/Screens/Product/View/ProductTableViewCell.xib"; sourceTree = SOURCE_ROOT; };
 		328A6B5D2A754F2300CF280D /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		328A6B622A7563B700CF280D /* EndPointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 			children = (
 				328A6B452A74E75200CF280D /* Application */,
 				328A6B442A74E74C00CF280D /* Constants */,
+				328A6B612A75639900CF280D /* Utility */,
 				328A6B432A74E74900CF280D /* Extensions */,
 				328A6B422A74E74600CF280D /* helper */,
 				328A6B3E2A74E73200CF280D /* Screens */,
@@ -236,6 +239,14 @@
 				328A6B572A75368500CF280D /* ProductTableViewCell.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		328A6B612A75639900CF280D /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				328A6B622A7563B700CF280D /* EndPointType.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -384,6 +395,7 @@
 				328A6B4F2A751D9A00CF280D /* Constant.swift in Sources */,
 				328A6B112A74E70C00CF280D /* SceneDelegate.swift in Sources */,
 				328A6B512A75221700CF280D /* ProductListViewController.swift in Sources */,
+				328A6B632A7563B700CF280D /* EndPointType.swift in Sources */,
 				328A6B4B2A74E8DE00CF280D /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

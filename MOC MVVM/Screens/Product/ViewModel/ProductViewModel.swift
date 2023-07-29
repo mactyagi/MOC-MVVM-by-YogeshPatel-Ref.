@@ -13,7 +13,8 @@ final class ProductViewModel{
     
     func fetchProducts(){
         eventHandler?(.loading)
-        APIManager.shared.fetchProducts { response in
+        APIManager.shared.request(modelType: [Product].self, type: EndPoinItems.products)
+        { response in
             self.eventHandler?(.stopLoading)
             switch response{
             case .success(let products):
